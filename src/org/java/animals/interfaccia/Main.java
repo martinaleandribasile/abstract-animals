@@ -6,26 +6,44 @@ import org.java.animals.Delfino;
 import org.java.animals.Passerotto;
 
 public class Main {
-
+//esempio con i metodi inseriti in una classe specifica Azione
 	public static void main(String[] args) {
+		Azione a = new Azione();
 		Aquila aquila = new Aquila();
-		faiVolare(aquila);
+		a.faiVolare(aquila);
 		
 		Delfino delfino = new Delfino();
-		faiNuotare(delfino);
+		a.faiNuotare(delfino);
 		
 		Passerotto passerotto = new Passerotto();
-		faiVolare(passerotto);
+		a.faiVolare(passerotto);
 		
 		Cane cane = new Cane();
-		faiNuotare(cane);
+		a.faiNuotare(cane);
 		
 	}
-
-	public static void faiVolare(IVolante x) {
-		x.vola();
-	}
-	public static void faiNuotare(INuotante y) {
-		y.nuota();
-	}
+	
+	// esempio con i metodi dichiarati direttamente dentro il main
+//	public static void main(String[] args) {
+//		
+//		Aquila aquila = new Aquila();
+//		faiVolare(aquila);
+//		
+//		Delfino delfino = new Delfino();
+//		faiNuotare(delfino);
+//		
+//		Passerotto passerotto = new Passerotto();
+//		faiVolare(passerotto);
+//		
+//		Cane cane = new Cane();
+//		faiNuotare(cane);
+//		
+//	}
+//	
+//	public static void faiVolare(IVolante x) {
+//		x.vola();
+//	}
+//	public static void faiNuotare(INuotante y) {
+//		y.nuota();
+//	}
 }
