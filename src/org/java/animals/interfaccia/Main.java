@@ -1,6 +1,5 @@
 package org.java.animals.interfaccia;
 
-import org.java.animals.Animale;
 import org.java.animals.Aquila;
 import org.java.animals.Delfino;
 import org.java.animals.Passerotto;
