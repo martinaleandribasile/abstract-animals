@@ -1,6 +1,7 @@
 package org.java.animals.interfaccia;
 
 import org.java.animals.Aquila;
+import org.java.animals.Cane;
 import org.java.animals.Delfino;
 import org.java.animals.Passerotto;
 
@@ -15,6 +16,9 @@ public class Main {
 		
 		Passerotto passerotto = new Passerotto();
 		faiVolare(passerotto);
+		
+		Cane cane = new Cane();
+		faiNuotare(cane);
 		
 	}
 

@@ -1,6 +1,8 @@
 package org.java.animals;
 
-public class Cane extends Animale {
+import org.java.animals.interfaccia.INuotante;
+
+public class Cane extends Animale implements INuotante {
 
 	
 	public void mangia() {
@@ -11,6 +13,11 @@ public class Cane extends Animale {
 	
 	public void verso() {
 		System.out.println("Verso: Bau Bau");
+		
+	}
+
+	public void nuota() {
+		System.out.println("sono un cane, Sto nuotando");
 		
 	}
 
