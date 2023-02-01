@@ -3,6 +3,7 @@ package org.java.animals.interfaccia;
 import org.java.animals.Animale;
 import org.java.animals.Aquila;
 import org.java.animals.Delfino;
+import org.java.animals.Passerotto;
 
 public class Main {
 
@@ -14,6 +15,10 @@ public class Main {
 		Delfino delfino = new Delfino();
 		System.out.println("Il delfino");
 		faiNuotare(delfino);
+		
+		Passerotto passerotto = new Passerotto();
+		System.out.println("Il passerotto");
+		faiVolare(passerotto);
 		
 	}
 
