@@ -2,7 +2,7 @@ package org.java.animals.interfaccia;
 
 
 
-public interface Vola {
+public interface IVolante {
 	public void vola();
 }
 

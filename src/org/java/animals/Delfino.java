@@ -1,8 +1,9 @@
 package org.java.animals;
 
-import org.java.animals.interfaccia.Nuota;
+import org.java.animals.interfaccia.INuotante;
 
-public class Delfino extends Animale implements Nuota{
+
+public class Delfino extends Animale implements INuotante{
 
 	
 	public void mangia() {
@@ -18,7 +19,7 @@ public class Delfino extends Animale implements Nuota{
 
 
 	public void nuota() {
-		System.out.println("Sto nuotando!");
+		System.out.println("sono un delfino, Sto nuotando");
 	}
 
 

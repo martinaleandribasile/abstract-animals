@@ -1,8 +1,8 @@
 package org.java.animals;
 
-import org.java.animals.interfaccia.Vola;
+import org.java.animals.interfaccia.IVolante;
 
-public class Aquila extends Animale implements Vola{
+public class Aquila extends Animale implements IVolante{
 
 	
 	public void mangia() {
@@ -17,7 +17,7 @@ public class Aquila extends Animale implements Vola{
 	}
 
 	public void vola() {
-		System.out.println("Sto volando");
+		System.out.println("sono un aquila, Sto volando");
 		
 	}
 

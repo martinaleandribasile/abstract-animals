@@ -1,6 +1,6 @@
 package org.java.animals.interfaccia;
 
 
-public interface Nuota {
+public interface INuotante {
 	public void nuota();
 }
